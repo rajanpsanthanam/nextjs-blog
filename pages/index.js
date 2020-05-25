@@ -8,7 +8,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Paginate from 'react-paginate';
 
-const PAGE_MAX_ITEMS = 3;
+const PAGE_MAX_ITEMS = 5;
 
 export default function Home({ allPostsData }) {
   const [page, setPage] = useState(0);
