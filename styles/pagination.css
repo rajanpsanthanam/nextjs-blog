@@ -1,0 +1,41 @@
+ul.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.pagination li {
+  display: inline-block;  
+}
+
+.pagination li a {
+  cursor: pointer;
+  padding: 7px 15px;
+  border: 1px solid transparent;
+}
+
+.pagination li a:focus {
+  outline: none;
+}
+
+.pagination li.active a {
+  border: 1px solid black;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-header input {
+  height: 25px;
+}
+
+.no-search-message {
+  font-size: 16px;
+}
+
+.no-search-message i {
+  color: rgba(0,0,0,.6);
+}
